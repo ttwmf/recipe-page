@@ -3,36 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="./style.css" />
   <title>Frontend Mentor | Recipe page</title>
-  <style>
-    :root {
-      --rose-800-color: #7A284E;
-      --rose-500-color: #FFF7FB;
-      --stone-900-color: #312E2C;
-      --stone-600-color: #5F564D;
-      --stone-150-color: #E3DDD7;
-      --stone-100-color: #F3E5D7;
-      --brown-800-color: #854632;
-      --white-color: #FFFFFF;
-
-      --font-size-preset-1: 2.5rem;
-      --font-size-preset-2: 1.75rem;
-      --font-size-preset-3: 1.25rem;
-      --font-size-preset-4: 1rem;
-
-      --font-height-preset-1: 1;
-      --front-height-preset-4: 1.5;
-      
-
-
-    }
-    body{
-      min-height: 100vh;
-    }
-  </style>
 </head>
 <body>
 <header class="header">
@@ -40,66 +17,66 @@
 </header>
 <main class="main">
   <article class="recipe">
-    <h1 class="title">Simple Omelette Recipe</h1>
-    <p class="description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    <h1 class="text-preset-1">Simple Omelette Recipe</h1>
+    <p class="description text-preset-4">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
       to perfection, optionally filled with your choice of cheese, vegetables, or meats.
     </p>
     <session class="preparation-time">
-      <h3>Preparation time</h3>
+      <h3 class="text-preset-3">Preparation time</h3>
       <ul>
-        <li><strong>Total:</strong> <time datetime="PT10M">Approximately 10 minutes</time></li>
-        <li><strong>Preparation:</strong> <time datetime="PT5M">5 minutes</time></li>
-        <li><strong>Cooking:</strong> <time datetime="PT5M">5 minutes</time></li>
+        <li class="text-preset-4"><strong>Total:</strong> <time datetime="PT10M">Approximately 10 minutes</time></li>
+        <li class="text-preset-4"><strong>Preparation:</strong> <time datetime="PT5M">5 minutes</time></li>
+        <li class="text-preset-4"><strong>Cooking:</strong> <time datetime="PT5M">5 minutes</time></li>
       </ul>
     </session>
 
     <session class="ingredients">
-      <h2>Ingredients</h2>
+      <h2 class="text-preset-2">Ingredients</h2>
       <ul>
-        <li class="ingredients-item">2-3 large eggs</li>
-        <li class="ingredients-item">Salt, to taste</li>
-        <li class="ingredients-item">Pepper, to taste</li>
-        <li class="ingredients-item">1 tablespoon of butter or oil</li>
-        <li class="ingredients-item">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        <li class="text-preset-4">2-3 large eggs</li>
+        <li class="text-preset-4">Salt, to taste</li>
+        <li class="text-preset-4">Pepper, to taste</li>
+        <li class="text-preset-4">1 tablespoon of butter or oil</li>
+        <li class="text-preset-4">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
     </session>
 
     <session class="instructions">
-      <h2>Instructions</h2>
+      <h2 class="text-preset-2">Instructions</h2>
       <ol>
-        <li class="instructions-item"><strong>Beat the eggs: </strong>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        <li class="text-preset-4"><strong>Beat the eggs: </strong>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.</li>
-        <li class="instructions-item"><strong>Heat the pan: </strong>Place a non-stick frying pan over medium heat and add butter or oil.</li>
-        <li class="instructions-item"><strong>Cook the omelette: </strong>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        <li class="text-preset-4"><strong>Heat the pan: </strong>Place a non-stick frying pan over medium heat and add butter or oil.</li>
+        <li class="text-preset-4"><strong>Cook the omelette: </strong>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
           the eggs evenly coat the surface.</li>
-        <li class="instructions-item"><strong>Add fillings (optional): </strong>When the eggs begin to set at the edges but are still slightly runny in the 
+        <li class="text-preset-4"><strong>Add fillings (optional): </strong>When the eggs begin to set at the edges but are still slightly runny in the 
           middle, sprinkle your chosen fillings over one half of the omelette.</li>
-        <li class="instructions-item"><strong>Fold and serve: </strong>As the omelette continues to cook, carefully lift one edge and fold it over the 
+        <li class="text-preset-4"><strong>Fold and serve: </strong>As the omelette continues to cook, carefully lift one edge and fold it over the 
           fillings. Let it cook for another minute, then slide it onto a plate.</li>
-        <li class="instructions-item"><strong>Enjoy: </strong>Serve hot, with additional salt and pepper if needed.</li>
+        <li class="text-preset-4"><strong>Enjoy: </strong>Serve hot, with additional salt and pepper if needed.</li>
       </ol>
     </session>
 
     <session class="nutrition">
-      <h2>Nutrition</h2>
-      <p>The table below shows nutritional values per serving without the additional fillings.</p>
+      <h2 class="text-preset-2">Nutrition</h2>
+      <p class="text-preset-4">The table below shows nutritional values per serving without the additional fillings.</p>
       <table>
         <tbody>
           <tr>
-            <th>Calories</th>
-            <td><strong>277kcal</strong></td>
+            <th class="text-preset-4">Calories</th>
+            <td class="text-preset-4-bold">277kcal</td>
           </tr>
           <tr>
-            <th>Carbs</th>
-            <td><strong>0g</strong></td>
+            <th class="text-preset-4">Carbs</th>
+            <td class="text-preset-4-bold">0g</td>
           </tr>
           <tr>
-            <th>Protein</th>
-            <td><strong>20g</strong></td>
+            <th class="text-preset-4">Protein</th>
+            <td class="text-preset-4-bold">20g</td>
           </tr>
           <tr>
-            <th>Fat</th>
-            <td><strong>22g</strong></td>
+            <th class="text-preset-4">Fat</th>
+            <td class="text-preset-4-bold">22g</td>
           </tr>
         </tbody>
       </table>
@@ -107,10 +84,6 @@
   </article>
 </main>
 <footer class="attribution">
-  <p>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">ttwmf</a>.
-  </p>
 </footer>
 </body>
 </html>
